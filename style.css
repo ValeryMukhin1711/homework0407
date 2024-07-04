@@ -1,0 +1,128 @@
+/* обнуление */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.upper_ {
+    background-color: rgb(95, 205, 215);
+    height: 50%;
+}
+
+
+.left_ {
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.right_ {
+    width: 50%;
+    padding-right: 5%;
+}
+
+.header_ {
+    font-size: 3em;
+    font-style: italic;
+    color: white;
+
+}
+
+.description_ {
+    color: white;
+}
+
+.photo_1_ {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: 45%;
+    width: 45%;
+}
+
+.button_1_ {
+    display: block;
+    background-color: #00868A;
+    margin: 3%;
+    border: 1px solid black;
+    padding: 5%;
+    font-size: 1.5em;
+    font-style: italic;
+    width: 200px;
+    color: white;
+    transition: all 1s;
+}
+
+.button_1_:hover {
+    background-color: rgb(15, 65, 232);
+}
+
+.social_ {
+    position: relative;
+    left: 55%;
+}
+
+.icon_ {
+    position: relative;
+    right: 80px;
+    height: 2em;
+    background-color: white;
+    padding-right: 1em;
+    padding-left: 1em;
+    }
+
+
+.menu_ {
+    padding-left: 130px;
+    font-size: 1em;
+    color: white;
+    }
+
+.menu_item_ {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.contact_ {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+h3 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: rgb(95, 205, 215);
+    font-style: italic;
+    text-align: center; 
+}
+
+.image_2_ {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: 1s;
+}
+
+.image_2_:hover {
+    width: 230px;
+    height: 230px;
+}
+
+.lamp_ {
+    position: relative;
+    right: 690px;
+    height: 2em;
+}
+
+
+
+.table_2_ {
+    padding-left: 150px;
+}
+
+.low_ {
+    height: 100px;
+}
